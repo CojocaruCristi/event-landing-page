@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 772px;
+    color: #ffffff;
+    background-image: url("./../img/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header-wrapper {
+    width: 100%;
+    height: 772px;
+    background: radial-gradient(86.94% 263.61% at 96.08% 15.9%, rgba(0, 25, 88, 0) 0%, #000000 100%);
+}
+
+.top-button-panel {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-button-panel button {
+    width: 286px;
+    height: 57px;
+    border: none;
+    border-radius: 100px;
+    margin-top: 38px;
+    margin-right: 52px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #001958;
+    cursor: pointer;
+}
+
+.content-wrapper {
+    width: 100%;
+    height: 677px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content-block {
+    margin-left: 122px;
+    margin-top: 121px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    margin-right: 39px;
+
+}
+.content {
+    font-style: normal;
+}
+
+.content button {
+    width: 286px;
+    height: 57px;
+    border: none;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #001958;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+#p1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+#p2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 11px;
+}
+
+#p3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+#p4 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px; 
+}
+
+
+.footer-header {
+    width: 100%;
+    text-align: center;
+}
+.footer-header p {
+    margin-top: 39px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #001958;
+}
+
+.statistics {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 20px;
+}
+
+.statistics-el {
+    font-style: normal;
+    text-align: center;
+}
+
+.categories {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F4F4F;
+}
+
+.numbers {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    color: #828282;
+}
+
